@@ -16,9 +16,19 @@ Para o bot, foi usada a biblioteca [WWeb.js](https://wwebjs.dev/).
 
 ![alt text](/doc_img/bot.png)
 
-No controller, o endpoint pode ser chamado via AJAX, Axios ou qualquer outra biblioteca de request, assim enviando apenas o código para o número correto.
+No controller, o endpoint pode ser chamado via AJAX, Axios ou qualquer outra biblioteca de request, assim enviando apenas o código para o número correto. Para ter uma boa ilustração, uma simulação do cenário, o código foi gerado nesta aplicação, mas a ideia é que ele fosse enviado da aplicação que está fazendo a requisição no body da request, junto com o número de celular do usuário.
 
 ![alt text](/doc_img/controller.png)
+
+Requisição via clint.
+
+![alt text](/doc_img/request_insominia.png)
+
+![alt text](/doc_img/request_error.png)
+
+Na conversa do WhatsApp.
+
+![alt text](/doc_img/wpp.jpg)
 
 ## Disclaimer
 
