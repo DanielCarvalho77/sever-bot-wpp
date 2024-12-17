@@ -11,7 +11,8 @@ class WppController {
                 return res.status(404).json({ message: 'Número inválido' });
             }
 
-            const codeTwoFat = Array.from({ length: 5 }, () => Math.floor(Math.random() * 10)).join('');
+            const codeTwoFat = 
+            Array.from({ length: 5 }, () => Math.floor(Math.random() * 10)).join('');
 
             let messageForUser = `*Esse é seu código de autenticação:* ${codeTwoFat}`;
 

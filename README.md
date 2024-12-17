@@ -14,9 +14,11 @@ Foi criado um serviço usando o [Express.js](https://expressjs.com/), devido à 
 
 Para o bot, foi usada a biblioteca [WWeb.js](https://wwebjs.dev/).
 
-![Imagem do WWeb.js](#)
+![alt text](/doc_img/bot.png)
 
 No controller, o endpoint pode ser chamado via AJAX, Axios ou qualquer outra biblioteca de request, assim enviando apenas o código para o número correto.
+
+![alt text](/doc_img/controller.png)
 
 ## Disclaimer
 
